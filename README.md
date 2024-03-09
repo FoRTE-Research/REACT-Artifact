@@ -1,12 +1,12 @@
-# REACT ASPLOS 2024 Artifact Evaluation
+# REACT ASPLOS 2024 Artifact
 REACT is a dynamic energy management platform for batteryless systems, described in detail in our ASPLOS 2024 paper "Energy-adaptive Buffering for Efficient, Responsive, and Persistent Batteryless Systems".
 The primary artifact is a hardware circuit, with implementation details described in the paper; this repository contains the source code for the software component of REACT and the baseline systems running on the MSP430FR5994, application benchmarks, and our recorded RF power traces.
 
-## Software pre-requisites
+## Software
 
 All source code is provided as Code Composer Studio 11 projects. CCS can be downloaded at https://www.ti.com/tool/CCSTUDIO. By importing each directory as a project into CCS, you can explore the source code and compile binaries to flash to a target system.
 
-## Hardware pre-requisites
+## Hardware
 
 Full system evaluation requires building the energy management circuit described in the paper and porting the code (i.e., setting the corresponding GPIO pins) according to the components used and their configuration.
 All software was developed for and tested on the Texas Instruments MSP430FR5994 using the MSP-EXP430FR5994 development kit.
