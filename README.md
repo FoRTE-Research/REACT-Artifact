@@ -9,7 +9,7 @@ All source code is provided as Code Composer Studio 11 projects. CCS can be down
 ## Hardware
 
 Full system evaluation requires building the energy management circuit described in the paper and porting the code (i.e., setting the corresponding GPIO pins) according to the components used and their configuration.
-All software was developed for and tested on the Texas Instruments MSP430FR5994 using the MSP-EXP430FR5994 development kit.
+All software was developed for and tested on the Texas Instruments MSP430FR5994 using the MSP-EXP430FR5994 development kit. We will add schematics for our REACT and Morphy implementations soon.
 
 ## RF Power Traces
 
